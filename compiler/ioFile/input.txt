@@ -1,0 +1,8 @@
+begin
+var a := 13.3
+var b := 14.3
+if (a>b) then
+    a := a + b
+else
+    a := b - a
+end
