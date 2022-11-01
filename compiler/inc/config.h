@@ -6,7 +6,9 @@
 #include <string>
 #include <vector>
 
-// TODO what is this?
+#include "inc/StackElement.h"
+
+// FOR_SCANNER
 #define VDIGIT 0
 #define VPOINT 1
 #define VEXPONENT 2
@@ -31,12 +33,12 @@
 #define DELIMITER_ID 5
 
 // code in token
+#define END_CODE -1
 #define CONST_CODE 1
 #define VAR_CODE 2
 #define DELIMITER_CODE 3
 #define KEYWORD_CODE 4
 
-// TODO table has been changed.S
 // changed the delimiter.
 int const STATE_TABLE[STATE_NUMBER][CHAR_NUMBER] =
    //d, ., E|e, +\-, ch, deli, else 
@@ -66,5 +68,18 @@ const std::unordered_map<bool(*)(const char &ch), int> stateConvert =
 {{IsDelimiter, DELIMITER_ID}, {IsChar, CHAR_ID}, {IsAddMinus, AM_ID},{IsEe, EE_ID}, {IsPoint, POINT_ID}, {IsDigit, DIGIT_ID}};
 
 std::string ParseCode(int &code);
+// END_FOR_SCANNER
+
+// FOR_SDTER
+
+#define NON_TERMINAL_NUMBER 5
+#define TERMINAL_NUMBER 8
+
+#define STK_OP  1
+#define STK_NT  2
+#define STK_ELE 3
+
+// END_FOR_SDTER
+
 
 #endif // SCANNER_INC_CONFIG_H_

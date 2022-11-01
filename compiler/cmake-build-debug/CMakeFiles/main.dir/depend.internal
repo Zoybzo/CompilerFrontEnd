@@ -6,29 +6,62 @@ CMakeFiles/main.dir/src/Log.cc.o
  /home/brainfuck/Myprojects/compiler/src/Log.cc
 CMakeFiles/main.dir/src/PDouble.cc.o
  ../inc/PDouble.h
- ../inc/token.h
+ ../inc/Token.h
  ../inc/utils.h
  /home/brainfuck/Myprojects/compiler/src/PDouble.cc
+CMakeFiles/main.dir/src/Quat.cc.o
+ ../inc/Quat.h
+ ../inc/StackElement.h
+ ../inc/config.h
+ /home/brainfuck/Myprojects/compiler/src/Quat.cc
+CMakeFiles/main.dir/src/SDTer.cc.o
+ ../inc/Log.h
+ ../inc/PDouble.h
+ ../inc/Quat.h
+ ../inc/SDTer.h
+ ../inc/StackElement.h
+ ../inc/Token.h
+ ../inc/config.h
+ /home/brainfuck/Myprojects/compiler/src/SDTer.cc
+CMakeFiles/main.dir/src/Scanner.cc.o
+ ../inc/Log.h
+ ../inc/PDouble.h
+ ../inc/Scanner.h
+ ../inc/StackElement.h
+ ../inc/Token.h
+ ../inc/config.h
+ ../inc/utils.h
+ /home/brainfuck/Myprojects/compiler/src/Scanner.cc
+CMakeFiles/main.dir/src/StackElement.cc.o
+ ../inc/StackElement.h
+ /home/brainfuck/Myprojects/compiler/src/StackElement.cc
+CMakeFiles/main.dir/src/Token.cc.o
+ ../inc/PDouble.h
+ ../inc/StackElement.h
+ ../inc/Token.h
+ ../inc/config.h
+ /home/brainfuck/Myprojects/compiler/src/Token.cc
 CMakeFiles/main.dir/src/config.cc.o
  ../inc/Log.h
+ ../inc/StackElement.h
  ../inc/config.h
  /home/brainfuck/Myprojects/compiler/src/config.cc
 CMakeFiles/main.dir/src/main.cc.o
  ../inc/Log.h
  ../inc/PDouble.h
+ ../inc/Quat.h
+ ../inc/SDTer.h
+ ../inc/Scanner.h
+ ../inc/StackElement.h
+ ../inc/Token.h
  ../inc/config.h
- ../inc/token.h
  ../inc/utils.h
  /home/brainfuck/Myprojects/compiler/src/main.cc
-CMakeFiles/main.dir/src/token.cc.o
- ../inc/PDouble.h
- ../inc/config.h
- ../inc/token.h
- /home/brainfuck/Myprojects/compiler/src/token.cc
 CMakeFiles/main.dir/src/utils.cc.o
  ../inc/Log.h
  ../inc/PDouble.h
+ ../inc/StackElement.h
+ ../inc/Token.h
  ../inc/config.h
- ../inc/token.h
  ../inc/utils.h
  /home/brainfuck/Myprojects/compiler/src/utils.cc

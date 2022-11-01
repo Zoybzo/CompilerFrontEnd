@@ -35,7 +35,7 @@ std::string ParseCode(int &code) {
     std::string str;
     switch (code) {
     case CONST_CODE:
-        str = "double";
+        str = "const";
         break;
     case VAR_CODE:
         str = "variable";

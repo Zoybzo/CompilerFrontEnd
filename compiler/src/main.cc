@@ -7,10 +7,12 @@
 
 #include "inc/utils.h"
 #include "inc/Log.h"
-#include "inc/token.h"
+#include "inc/Token.h"
 #include "inc/PDouble.h"
 #include "inc/config.h"
-
+#include "inc/Scanner.h"
+#include "inc/SDTer.h"
+#include "inc/Quat.h"
 
 DEFINE_string(output_path,"../ioFile/output.txt","output file path");
 DEFINE_string(input_path,"../ioFile/input.txt","input file path");
@@ -27,33 +29,22 @@ int main(int argc, char* argv[]) {
     Token::sizeVariable = 0, Token::sizeConst = 0, Token::sizeToken = 0;
     std::ifstream in(FLAGS_input_path);
     std::string contents((std::istreambuf_iterator<char>(in)), std::istreambuf_iterator<char>());
-    int lpoint = 0, rpoint = (int)contents.size();
-    int lineNumberContent = 1;
-    std::vector<Token> tokens;
-    std::vector<PDouble> consts;
-    std::vector<std::string> variables;
+    
     std::string res;
-    while (lpoint < rpoint) {
-        // Process one sentence at a time.
-        std::string sentence;
-        while (IsBlank(contents[lpoint], lineNumberContent) && lpoint < rpoint) lpoint++;
-        while (!IsBlank(contents[lpoint], lineNumberContent) && lpoint < rpoint) sentence += contents[lpoint++];
-        if (sentence.empty() || lpoint >= rpoint) break;
-        sentence += '\0';
-        // State Convert
-        SplitWords(sentence, lineNumberContent, tokens, consts, variables, res);
-    }
-    // TODO line number is error.
-    // Log::i("Line Number: " + std::to_string(lineNumberContent));
-    std::cout << "Res: ********************************************" << std::endl;
-    Log::i(res);
-    std::cout << "Tokens: ********************************************" << std::endl;
-    for (auto it : tokens) Log::i(ParseCode(it.code) + ": " + it.to_string(consts, variables));
-    std::cout << "Keywords: ********************************************" << std::endl;
-    for (auto it : KEYWORDS_TABLE) Log::i(it);
-    std::cout << "Variabels: ********************************************" << std::endl;
-    for (auto it : variables) Log::i(it);
-    std::cout << "Consts: ********************************************" << std::endl;
-    for (auto it : consts) Log::i(std::to_string(it.value));
+    Scanner scanner;
+    scanner.process(contents, res);
+
+    std::cout << "Res: " << res << std::endl;
+
+    std::vector<Token> tokens = scanner.tokens;
+    std::vector<PDouble> consts = scanner.consts;
+    std::vector<std::string> variables = scanner.variables;
+
+    SDTer sdter(tokens, consts, variables);
+    sdter.process();
+
+    std::vector<Quat> quat = sdter.quat;
+    for (auto it : quat) Log::i(it.to_string());
+    
     return 0;
 }

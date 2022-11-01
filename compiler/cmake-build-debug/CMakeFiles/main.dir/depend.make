@@ -5,30 +5,63 @@ CMakeFiles/main.dir/src/Log.cc.o: ../inc/Log.h
 CMakeFiles/main.dir/src/Log.cc.o: ../src/Log.cc
 
 CMakeFiles/main.dir/src/PDouble.cc.o: ../inc/PDouble.h
-CMakeFiles/main.dir/src/PDouble.cc.o: ../inc/token.h
+CMakeFiles/main.dir/src/PDouble.cc.o: ../inc/Token.h
 CMakeFiles/main.dir/src/PDouble.cc.o: ../inc/utils.h
 CMakeFiles/main.dir/src/PDouble.cc.o: ../src/PDouble.cc
 
+CMakeFiles/main.dir/src/Quat.cc.o: ../inc/Quat.h
+CMakeFiles/main.dir/src/Quat.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/Quat.cc.o: ../inc/config.h
+CMakeFiles/main.dir/src/Quat.cc.o: ../src/Quat.cc
+
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/Log.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/PDouble.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/Quat.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/SDTer.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/Token.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../inc/config.h
+CMakeFiles/main.dir/src/SDTer.cc.o: ../src/SDTer.cc
+
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/Log.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/PDouble.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/Scanner.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/Token.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/config.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../inc/utils.h
+CMakeFiles/main.dir/src/Scanner.cc.o: ../src/Scanner.cc
+
+CMakeFiles/main.dir/src/StackElement.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/StackElement.cc.o: ../src/StackElement.cc
+
+CMakeFiles/main.dir/src/Token.cc.o: ../inc/PDouble.h
+CMakeFiles/main.dir/src/Token.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/Token.cc.o: ../inc/Token.h
+CMakeFiles/main.dir/src/Token.cc.o: ../inc/config.h
+CMakeFiles/main.dir/src/Token.cc.o: ../src/Token.cc
+
 CMakeFiles/main.dir/src/config.cc.o: ../inc/Log.h
+CMakeFiles/main.dir/src/config.cc.o: ../inc/StackElement.h
 CMakeFiles/main.dir/src/config.cc.o: ../inc/config.h
 CMakeFiles/main.dir/src/config.cc.o: ../src/config.cc
 
 CMakeFiles/main.dir/src/main.cc.o: ../inc/Log.h
 CMakeFiles/main.dir/src/main.cc.o: ../inc/PDouble.h
+CMakeFiles/main.dir/src/main.cc.o: ../inc/Quat.h
+CMakeFiles/main.dir/src/main.cc.o: ../inc/SDTer.h
+CMakeFiles/main.dir/src/main.cc.o: ../inc/Scanner.h
+CMakeFiles/main.dir/src/main.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/main.cc.o: ../inc/Token.h
 CMakeFiles/main.dir/src/main.cc.o: ../inc/config.h
-CMakeFiles/main.dir/src/main.cc.o: ../inc/token.h
 CMakeFiles/main.dir/src/main.cc.o: ../inc/utils.h
 CMakeFiles/main.dir/src/main.cc.o: ../src/main.cc
 
-CMakeFiles/main.dir/src/token.cc.o: ../inc/PDouble.h
-CMakeFiles/main.dir/src/token.cc.o: ../inc/config.h
-CMakeFiles/main.dir/src/token.cc.o: ../inc/token.h
-CMakeFiles/main.dir/src/token.cc.o: ../src/token.cc
-
 CMakeFiles/main.dir/src/utils.cc.o: ../inc/Log.h
 CMakeFiles/main.dir/src/utils.cc.o: ../inc/PDouble.h
+CMakeFiles/main.dir/src/utils.cc.o: ../inc/StackElement.h
+CMakeFiles/main.dir/src/utils.cc.o: ../inc/Token.h
 CMakeFiles/main.dir/src/utils.cc.o: ../inc/config.h
-CMakeFiles/main.dir/src/utils.cc.o: ../inc/token.h
 CMakeFiles/main.dir/src/utils.cc.o: ../inc/utils.h
 CMakeFiles/main.dir/src/utils.cc.o: ../src/utils.cc
 

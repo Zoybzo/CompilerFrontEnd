@@ -177,6 +177,141 @@ src/PDouble.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/PDouble.cc.s
 .PHONY : src/PDouble.cc.s
 
+src/Quat.o: src/Quat.cc.o
+
+.PHONY : src/Quat.o
+
+# target to build an object file
+src/Quat.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Quat.cc.o
+.PHONY : src/Quat.cc.o
+
+src/Quat.i: src/Quat.cc.i
+
+.PHONY : src/Quat.i
+
+# target to preprocess a source file
+src/Quat.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Quat.cc.i
+.PHONY : src/Quat.cc.i
+
+src/Quat.s: src/Quat.cc.s
+
+.PHONY : src/Quat.s
+
+# target to generate assembly for a file
+src/Quat.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Quat.cc.s
+.PHONY : src/Quat.cc.s
+
+src/SDTer.o: src/SDTer.cc.o
+
+.PHONY : src/SDTer.o
+
+# target to build an object file
+src/SDTer.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/SDTer.cc.o
+.PHONY : src/SDTer.cc.o
+
+src/SDTer.i: src/SDTer.cc.i
+
+.PHONY : src/SDTer.i
+
+# target to preprocess a source file
+src/SDTer.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/SDTer.cc.i
+.PHONY : src/SDTer.cc.i
+
+src/SDTer.s: src/SDTer.cc.s
+
+.PHONY : src/SDTer.s
+
+# target to generate assembly for a file
+src/SDTer.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/SDTer.cc.s
+.PHONY : src/SDTer.cc.s
+
+src/Scanner.o: src/Scanner.cc.o
+
+.PHONY : src/Scanner.o
+
+# target to build an object file
+src/Scanner.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scanner.cc.o
+.PHONY : src/Scanner.cc.o
+
+src/Scanner.i: src/Scanner.cc.i
+
+.PHONY : src/Scanner.i
+
+# target to preprocess a source file
+src/Scanner.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scanner.cc.i
+.PHONY : src/Scanner.cc.i
+
+src/Scanner.s: src/Scanner.cc.s
+
+.PHONY : src/Scanner.s
+
+# target to generate assembly for a file
+src/Scanner.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Scanner.cc.s
+.PHONY : src/Scanner.cc.s
+
+src/StackElement.o: src/StackElement.cc.o
+
+.PHONY : src/StackElement.o
+
+# target to build an object file
+src/StackElement.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/StackElement.cc.o
+.PHONY : src/StackElement.cc.o
+
+src/StackElement.i: src/StackElement.cc.i
+
+.PHONY : src/StackElement.i
+
+# target to preprocess a source file
+src/StackElement.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/StackElement.cc.i
+.PHONY : src/StackElement.cc.i
+
+src/StackElement.s: src/StackElement.cc.s
+
+.PHONY : src/StackElement.s
+
+# target to generate assembly for a file
+src/StackElement.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/StackElement.cc.s
+.PHONY : src/StackElement.cc.s
+
+src/Token.o: src/Token.cc.o
+
+.PHONY : src/Token.o
+
+# target to build an object file
+src/Token.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Token.cc.o
+.PHONY : src/Token.cc.o
+
+src/Token.i: src/Token.cc.i
+
+.PHONY : src/Token.i
+
+# target to preprocess a source file
+src/Token.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Token.cc.i
+.PHONY : src/Token.cc.i
+
+src/Token.s: src/Token.cc.s
+
+.PHONY : src/Token.s
+
+# target to generate assembly for a file
+src/Token.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Token.cc.s
+.PHONY : src/Token.cc.s
+
 src/config.o: src/config.cc.o
 
 .PHONY : src/config.o
@@ -231,33 +366,6 @@ src/main.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
-src/token.o: src/token.cc.o
-
-.PHONY : src/token.o
-
-# target to build an object file
-src/token.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token.cc.o
-.PHONY : src/token.cc.o
-
-src/token.i: src/token.cc.i
-
-.PHONY : src/token.i
-
-# target to preprocess a source file
-src/token.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token.cc.i
-.PHONY : src/token.cc.i
-
-src/token.s: src/token.cc.s
-
-.PHONY : src/token.s
-
-# target to generate assembly for a file
-src/token.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/token.cc.s
-.PHONY : src/token.cc.s
-
 src/utils.o: src/utils.cc.o
 
 .PHONY : src/utils.o
@@ -300,15 +408,27 @@ help:
 	@echo "... src/PDouble.o"
 	@echo "... src/PDouble.i"
 	@echo "... src/PDouble.s"
+	@echo "... src/Quat.o"
+	@echo "... src/Quat.i"
+	@echo "... src/Quat.s"
+	@echo "... src/SDTer.o"
+	@echo "... src/SDTer.i"
+	@echo "... src/SDTer.s"
+	@echo "... src/Scanner.o"
+	@echo "... src/Scanner.i"
+	@echo "... src/Scanner.s"
+	@echo "... src/StackElement.o"
+	@echo "... src/StackElement.i"
+	@echo "... src/StackElement.s"
+	@echo "... src/Token.o"
+	@echo "... src/Token.i"
+	@echo "... src/Token.s"
 	@echo "... src/config.o"
 	@echo "... src/config.i"
 	@echo "... src/config.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/token.o"
-	@echo "... src/token.i"
-	@echo "... src/token.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

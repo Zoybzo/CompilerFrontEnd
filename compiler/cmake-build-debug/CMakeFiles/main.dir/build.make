@@ -83,9 +83,74 @@ CMakeFiles/main.dir/src/PDouble.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PDouble.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/PDouble.cc -o CMakeFiles/main.dir/src/PDouble.cc.s
 
+CMakeFiles/main.dir/src/Quat.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Quat.cc.o: ../src/Quat.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Quat.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/Quat.cc.o -c /home/brainfuck/Myprojects/compiler/src/Quat.cc
+
+CMakeFiles/main.dir/src/Quat.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Quat.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/Quat.cc > CMakeFiles/main.dir/src/Quat.cc.i
+
+CMakeFiles/main.dir/src/Quat.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Quat.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/Quat.cc -o CMakeFiles/main.dir/src/Quat.cc.s
+
+CMakeFiles/main.dir/src/SDTer.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/SDTer.cc.o: ../src/SDTer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/SDTer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/SDTer.cc.o -c /home/brainfuck/Myprojects/compiler/src/SDTer.cc
+
+CMakeFiles/main.dir/src/SDTer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/SDTer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/SDTer.cc > CMakeFiles/main.dir/src/SDTer.cc.i
+
+CMakeFiles/main.dir/src/SDTer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/SDTer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/SDTer.cc -o CMakeFiles/main.dir/src/SDTer.cc.s
+
+CMakeFiles/main.dir/src/Scanner.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Scanner.cc.o: ../src/Scanner.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Scanner.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/Scanner.cc.o -c /home/brainfuck/Myprojects/compiler/src/Scanner.cc
+
+CMakeFiles/main.dir/src/Scanner.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Scanner.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/Scanner.cc > CMakeFiles/main.dir/src/Scanner.cc.i
+
+CMakeFiles/main.dir/src/Scanner.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Scanner.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/Scanner.cc -o CMakeFiles/main.dir/src/Scanner.cc.s
+
+CMakeFiles/main.dir/src/StackElement.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/StackElement.cc.o: ../src/StackElement.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/StackElement.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/StackElement.cc.o -c /home/brainfuck/Myprojects/compiler/src/StackElement.cc
+
+CMakeFiles/main.dir/src/StackElement.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/StackElement.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/StackElement.cc > CMakeFiles/main.dir/src/StackElement.cc.i
+
+CMakeFiles/main.dir/src/StackElement.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/StackElement.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/StackElement.cc -o CMakeFiles/main.dir/src/StackElement.cc.s
+
+CMakeFiles/main.dir/src/Token.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Token.cc.o: ../src/Token.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/Token.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/Token.cc.o -c /home/brainfuck/Myprojects/compiler/src/Token.cc
+
+CMakeFiles/main.dir/src/Token.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Token.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/Token.cc > CMakeFiles/main.dir/src/Token.cc.i
+
+CMakeFiles/main.dir/src/Token.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Token.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/Token.cc -o CMakeFiles/main.dir/src/Token.cc.s
+
 CMakeFiles/main.dir/src/config.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/config.cc.o: ../src/config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/config.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/config.cc.o -c /home/brainfuck/Myprojects/compiler/src/config.cc
 
 CMakeFiles/main.dir/src/config.cc.i: cmake_force
@@ -98,7 +163,7 @@ CMakeFiles/main.dir/src/config.cc.s: cmake_force
 
 CMakeFiles/main.dir/src/main.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/main.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cc.o -c /home/brainfuck/Myprojects/compiler/src/main.cc
 
 CMakeFiles/main.dir/src/main.cc.i: cmake_force
@@ -109,22 +174,9 @@ CMakeFiles/main.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/main.cc -o CMakeFiles/main.dir/src/main.cc.s
 
-CMakeFiles/main.dir/src/token.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/token.cc.o: ../src/token.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/token.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/token.cc.o -c /home/brainfuck/Myprojects/compiler/src/token.cc
-
-CMakeFiles/main.dir/src/token.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/token.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/brainfuck/Myprojects/compiler/src/token.cc > CMakeFiles/main.dir/src/token.cc.i
-
-CMakeFiles/main.dir/src/token.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/token.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/brainfuck/Myprojects/compiler/src/token.cc -o CMakeFiles/main.dir/src/token.cc.s
-
 CMakeFiles/main.dir/src/utils.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils.cc.o: ../src/utils.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/utils.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/utils.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/utils.cc.o -c /home/brainfuck/Myprojects/compiler/src/utils.cc
 
 CMakeFiles/main.dir/src/utils.cc.i: cmake_force
@@ -139,9 +191,13 @@ CMakeFiles/main.dir/src/utils.cc.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/Log.cc.o" \
 "CMakeFiles/main.dir/src/PDouble.cc.o" \
+"CMakeFiles/main.dir/src/Quat.cc.o" \
+"CMakeFiles/main.dir/src/SDTer.cc.o" \
+"CMakeFiles/main.dir/src/Scanner.cc.o" \
+"CMakeFiles/main.dir/src/StackElement.cc.o" \
+"CMakeFiles/main.dir/src/Token.cc.o" \
 "CMakeFiles/main.dir/src/config.cc.o" \
 "CMakeFiles/main.dir/src/main.cc.o" \
-"CMakeFiles/main.dir/src/token.cc.o" \
 "CMakeFiles/main.dir/src/utils.cc.o"
 
 # External object files for target main
@@ -149,13 +205,17 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/Log.cc.o
 main: CMakeFiles/main.dir/src/PDouble.cc.o
+main: CMakeFiles/main.dir/src/Quat.cc.o
+main: CMakeFiles/main.dir/src/SDTer.cc.o
+main: CMakeFiles/main.dir/src/Scanner.cc.o
+main: CMakeFiles/main.dir/src/StackElement.cc.o
+main: CMakeFiles/main.dir/src/Token.cc.o
 main: CMakeFiles/main.dir/src/config.cc.o
 main: CMakeFiles/main.dir/src/main.cc.o
-main: CMakeFiles/main.dir/src/token.cc.o
 main: CMakeFiles/main.dir/src/utils.cc.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

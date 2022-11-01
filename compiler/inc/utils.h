@@ -2,12 +2,9 @@
 #ifndef SCANNER_INC_UTILS_H_
 #define SCANNER_INC_UTILS_H_
 
-#include <unordered_map>
-#include <set>
 #include <string>
-#include <vector>
 
-#include "inc/token.h"
+#include "inc/Token.h"
 #include "inc/PDouble.h"
 
 #define EPS 1e-8
@@ -15,15 +12,8 @@
 std::string RealPath(std::string path);
 bool IsBlank(const char &ch, int &lineNumberContent);
 void Error(const int &lineNumberContent);
-void SplitWords(const std::string &str, int &lineNumberContent, std::vector<Token> &tokens, std::vector<PDouble> &consts, std::vector<std::string> &variables, std::string &res);
 double GetNumber(const std::string &str);
-int GetState(const std::unordered_map<bool(*)(const char &ch), int> &stateConvert, const char &ch);
-int JudgeDelimiter(const std::string &str, int &lpoint, std::string &out);
-void ProcessNumber(const std::string word, Token &token, std::vector<PDouble> &consts, std::string &res);
-void ProcessStr(const std::string word, Token &token,  std::vector<std::string> &variables, std::string &res);
-void ProcessDelimiter(const std::string word, int delimiterId, Token &token, std::string &res);
-void AddToken(std::vector<Token> &tokens, Token token);
 void getRes(std::string &res, int code, int val);
-
 int Sgn(double x);
+
 #endif //SCANNER_INC_UTILS_H_

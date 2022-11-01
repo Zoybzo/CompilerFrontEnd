@@ -1,4 +1,4 @@
-#include "inc/token.h"
+#include "inc/Token.h"
 
 #include <iostream>
 #include <string>
@@ -25,5 +25,6 @@ std::string Token::to_string(std::vector<PDouble> &consts, std::vector<std::stri
     else if (code == CONST_CODE) ret = (std::to_string(consts[value].value));
     else if (code == DELIMITER_CODE) ret = (DELIMITER_TABLE[value]);
     else if (code == KEYWORD_CODE) ret = KEYWORDS_TABLE[value];
+    else if (code == END_CODE) ret = "#";
     return ret;
 }

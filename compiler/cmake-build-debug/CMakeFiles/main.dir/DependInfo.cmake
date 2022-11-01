@@ -6,9 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/brainfuck/Myprojects/compiler/src/Log.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/Log.cc.o"
   "/home/brainfuck/Myprojects/compiler/src/PDouble.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/PDouble.cc.o"
+  "/home/brainfuck/Myprojects/compiler/src/Quat.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/Quat.cc.o"
+  "/home/brainfuck/Myprojects/compiler/src/SDTer.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/SDTer.cc.o"
+  "/home/brainfuck/Myprojects/compiler/src/Scanner.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/Scanner.cc.o"
+  "/home/brainfuck/Myprojects/compiler/src/StackElement.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/StackElement.cc.o"
+  "/home/brainfuck/Myprojects/compiler/src/Token.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/Token.cc.o"
   "/home/brainfuck/Myprojects/compiler/src/config.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/config.cc.o"
   "/home/brainfuck/Myprojects/compiler/src/main.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/main.cc.o"
-  "/home/brainfuck/Myprojects/compiler/src/token.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/token.cc.o"
   "/home/brainfuck/Myprojects/compiler/src/utils.cc" "/home/brainfuck/Myprojects/compiler/cmake-build-debug/CMakeFiles/main.dir/src/utils.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
