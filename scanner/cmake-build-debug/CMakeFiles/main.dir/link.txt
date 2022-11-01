@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/main.dir/src/Log.cc.o CMakeFiles/main.dir/src/PDouble.cc.o CMakeFiles/main.dir/src/config.cc.o CMakeFiles/main.dir/src/main.cc.o CMakeFiles/main.dir/src/token.cc.o CMakeFiles/main.dir/src/utils.cc.o  -o main  -lgflags 
