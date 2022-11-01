@@ -1,5 +1,5 @@
-# CompilerFigure
-A scanner and a sdter written in Cpp.
+# Compiler
+A scanner and a sdter(Syntax-directed translation) written in Cpp.
 
 ## Quick start
 
