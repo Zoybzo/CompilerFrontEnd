@@ -1,4 +1,4 @@
-# Compiler
+# Compiler Front End
 A scanner and a sdter(Syntax-directed translation) written in Cpp.
 
 ## Quick start
